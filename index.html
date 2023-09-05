@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Product Card </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="item-container">
+        <li class="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <sub id="items"></sub>
+        </li>
+        <img class="one active" src="blue.jpeg" alt="">
+        <img class="two" src="pink.jpg" alt="">
+        <img class="three" src="yellow.jpg" alt="">
+        <div class="colors">
+            <ul>
+                <li id="blue" class="blue circle"></li>
+                <li id="pink" class="pink circle"></li>
+                <li id="yellow" class="yellow circle"></li>
+            </ul>
+        </div>
+        <p class="title"> Fluo M Running Shoes For Men </p>
+        <h2 class="price">
+            <span> Price: </span><span class="money">$60</span>
+        </h2>
+        <button class="add-to-card" id="cart-btn"> Add To Card </button>
+    </div>
+
+</body>
+    <script src="script.js"></script>
+</html>
